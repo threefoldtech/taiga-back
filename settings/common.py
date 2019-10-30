@@ -153,6 +153,7 @@ LANGUAGES = [
     #("vi", "Tiếng Việt"),  # Vietnamese
     ("zh-hans", "中文(简体)"),  # Simplified Chinese
     ("zh-hant", "中文(香港)"),  # Traditional Chinese
+    ("en-circle", "English"), #English adapted for usage Threefold Circle
 ]
 
 # Languages using BiDi (right-to-left) layout
