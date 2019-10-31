@@ -18,14 +18,14 @@
 
 
 SR = {
-    "taigaio_url": "https://taiga.io",
+    "taigaio_url": "https://threefold.tech",
     "social": {
-        "twitter_url": "https://twitter.com/taigaio",
-        "github_url": "https://github.com/taigaio",
+        "twitter_url": "https://twitter.com/threefoldtech",
+        "github_url": "https://github.com/threefoldtech",
     },
     "support": {
-        "url": "https://tree.taiga.io/support",
-        "email": "support@taiga.io",
-        "mailing_list": "https://groups.google.com/forum/#!forum/taigaio",
+        "url": "https://support.grid.tf",
+        "email": "support@threefold.tech",
+        "mailing_list": "https://t.me/joinchat/CkXEgxFwKvwPnd9gawbaOw",
     }
 }
