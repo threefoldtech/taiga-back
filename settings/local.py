@@ -145,7 +145,7 @@ DATABASES = {
 
 # Note: See config in taiga-front too
 #FEEDBACK_ENABLED = True
-#FEEDBACK_EMAIL = "support@taiga.io"
+#FEEDBACK_EMAIL = "support@threefold.tech"
 
 
 #########################################
