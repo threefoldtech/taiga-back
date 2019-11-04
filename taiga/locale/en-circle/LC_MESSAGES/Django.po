@@ -1245,8 +1245,8 @@ msgstr "The status doesn't exist"
 #: taiga/importers/jira/api.py:60 taiga/importers/jira/api.py:106
 #: taiga/importers/pivotal/api.py:43 taiga/importers/pivotal/api.py:80
 #: taiga/importers/trello/api.py:46 taiga/importers/trello/api.py:83
-msgid "The project param is needed"
-msgstr "The project param is needed"
+msgid "The circle param is needed"
+msgstr "The circle param is needed"
 
 #: taiga/importers/asana/api.py:50 taiga/importers/asana/api.py:73
 #: taiga/importers/asana/api.py:139
@@ -1313,7 +1313,7 @@ msgid ""
 "    <h3>Your Asana project has been correctly imported.</h3>\n"
 "    <a class=\"button\" href=\"%(url)s\" title=\"Go to the project "
 "%(project)s\">Go to %(project)s</a>\n"
-"    <p><small>The Taiga Team</small></p>\n"
+"    <p><small>The Threefold Team</small></p>\n"
 "    "
 msgstr ""
 "\n"
@@ -1322,7 +1322,7 @@ msgstr ""
 "    <h3>Your Asana project has been correctly imported.</h3>\n"
 "    <a class=\"button\" href=\"%(url)s\" title=\"Go to the project "
 "%(project)s\">Go to %(project)s</a>\n"
-"    <p><small>The Taiga Team</small></p>\n"
+"    <p><small>The Threefold Team</small></p>\n"
 "    "
 
 #: taiga/importers/templates/emails/asana_import_success-body-text.jinja:1
@@ -1366,7 +1366,7 @@ msgid ""
 "    <h3>Your GitHub project has been correctly imported.</h3>\n"
 "    <a class=\"button\" href=\"%(url)s\" title=\"Go to the project "
 "%(project)s\">Go to %(project)s</a>\n"
-"    <p><small>The Taiga Team</small></p>\n"
+"    <p><small>The Threefold Team</small></p>\n"
 "    "
 msgstr ""
 "\n"
@@ -1375,7 +1375,7 @@ msgstr ""
 "    <h3>Your GitHub project has been correctly imported.</h3>\n"
 "    <a class=\"button\" href=\"%(url)s\" title=\"Go to the project "
 "%(project)s\">Go to %(project)s</a>\n"
-"    <p><small>The Taiga Team</small></p>\n"
+"    <p><small>The Threefold Team</small></p>\n"
 "    "
 
 #: taiga/importers/templates/emails/github_import_success-body-text.jinja:1
@@ -1391,7 +1391,7 @@ msgid ""
 "%(url)s\n"
 "\n"
 "---\n"
-"The Taiga Team\n"
+"The Threefold Team\n"
 msgstr ""
 "\n"
 "Hello %(user)s,\n"
@@ -1403,7 +1403,7 @@ msgstr ""
 "%(url)s\n"
 "\n"
 "---\n"
-"The Taiga Team\n"
+"The Threefold Team\n"
 
 #: taiga/importers/templates/emails/github_import_success-subject.jinja:1
 #, python-format
@@ -1419,7 +1419,7 @@ msgid ""
 "    <h3>Your Jira project has been correctly imported.</h3>\n"
 "    <a class=\"button\" href=\"%(url)s\" title=\"Go to the project "
 "%(project)s\">Go to %(project)s</a>\n"
-"    <p><small>The Taiga Team</small></p>\n"
+"    <p><small>The Threefold Team</small></p>\n"
 "    "
 msgstr ""
 "\n"
@@ -1428,7 +1428,7 @@ msgstr ""
 "    <h3>Your Jira project has been correctly imported.</h3>\n"
 "    <a class=\"button\" href=\"%(url)s\" title=\"Go to the project "
 "%(project)s\">Go to %(project)s</a>\n"
-"    <p><small>The Taiga Team</small></p>\n"
+"    <p><small>The Threefold Team</small></p>\n"
 "    "
 
 #: taiga/importers/templates/emails/jira_import_success-body-text.jinja:1
@@ -1444,7 +1444,7 @@ msgid ""
 "%(url)s\n"
 "\n"
 "---\n"
-"The Taiga Team\n"
+"The Threefold Team\n"
 msgstr ""
 "\n"
 "Hello %(user)s,\n"
@@ -1456,7 +1456,7 @@ msgstr ""
 "%(url)s\n"
 "\n"
 "---\n"
-"The Taiga Team\n"
+"The Threefold Team\n"
 
 #: taiga/importers/templates/emails/jira_import_success-subject.jinja:1
 #, python-format
@@ -1472,7 +1472,7 @@ msgid ""
 "    <h3>Your Trello project has been correctly imported.</h3>\n"
 "    <a class=\"button\" href=\"%(url)s\" title=\"Go to the project "
 "%(project)s\">Go to %(project)s</a>\n"
-"    <p><small>The Taiga Team</small></p>\n"
+"    <p><small>The Threefold Team</small></p>\n"
 "    "
 msgstr ""
 "\n"
@@ -1481,7 +1481,7 @@ msgstr ""
 "    <h3>Your Trello project has been correctly imported.</h3>\n"
 "    <a class=\"button\" href=\"%(url)s\" title=\"Go to the project "
 "%(project)s\">Go to %(project)s</a>\n"
-"    <p><small>The Taiga Team</small></p>\n"
+"    <p><small>The Threefold Team</small></p>\n"
 "    "
 
 #: taiga/importers/templates/emails/trello_import_success-body-text.jinja:1
@@ -1497,7 +1497,7 @@ msgid ""
 "%(url)s\n"
 "\n"
 "---\n"
-"The Taiga Team\n"
+"The Threefold Team\n"
 msgstr ""
 "\n"
 "Hello %(user)s,\n"
@@ -1509,7 +1509,7 @@ msgstr ""
 "%(url)s\n"
 "\n"
 "---\n"
-"The Taiga Team\n"
+"The Threefold Team\n"
 
 #: taiga/importers/templates/emails/trello_import_success-subject.jinja:1
 #, python-format
@@ -1536,8 +1536,8 @@ msgid "Error importing Trello project"
 msgstr "Error importing Trello project"
 
 #: taiga/permissions/choices.py:23 taiga/permissions/choices.py:34
-msgid "View project"
-msgstr "View project"
+msgid "View circle"
+msgstr "View circle"
 
 #: taiga/permissions/choices.py:24 taiga/permissions/choices.py:36
 msgid "View milestones"
@@ -1552,8 +1552,8 @@ msgid "View stories"
 msgstr "View stories"
 
 #: taiga/permissions/choices.py:27 taiga/permissions/choices.py:53
-msgid "View tasks"
-msgstr "View tasks"
+msgid "View items"
+msgstr "View items"
 
 #: taiga/permissions/choices.py:28 taiga/permissions/choices.py:59
 msgid "View issues"
@@ -1616,20 +1616,20 @@ msgid "Delete story"
 msgstr "Delete story"
 
 #: taiga/permissions/choices.py:54
-msgid "Add task"
-msgstr "Add task"
+msgid "Add item"
+msgstr "Add item"
 
 #: taiga/permissions/choices.py:55
-msgid "Modify task"
-msgstr "Modify task"
+msgid "Modify item"
+msgstr "Modify item"
 
 #: taiga/permissions/choices.py:56
-msgid "Comment task"
-msgstr "Comment task"
+msgid "Comment item"
+msgstr "Comment item"
 
 #: taiga/permissions/choices.py:57
-msgid "Delete task"
-msgstr "Delete task"
+msgid "Delete item"
+msgstr "Delete item"
 
 #: taiga/permissions/choices.py:60
 msgid "Add issue"
@@ -1692,8 +1692,8 @@ msgid "Remove member"
 msgstr "Remove member"
 
 #: taiga/permissions/choices.py:82
-msgid "Admin project values"
-msgstr "Admin project values"
+msgid "Admin circle values"
+msgstr "Admin circle values"
 
 #: taiga/permissions/choices.py:83
 msgid "Admin roles"
@@ -1784,15 +1784,15 @@ msgid "You can't delete story due date by default"
 msgstr ""
 
 #: taiga/projects/api.py:678
-msgid "Project already have due dates"
+msgid "Circle already have due dates"
 msgstr ""
 
 #: taiga/projects/api.py:738
-msgid "You can't delete task due date by default"
+msgid "You can't delete item due date by default"
 msgstr ""
 
 #: taiga/projects/api.py:754
-msgid "Project already have task due dates"
+msgid "Circle already have task due dates"
 msgstr ""
 
 #: taiga/projects/api.py:878
@@ -1805,18 +1805,18 @@ msgstr ""
 
 #: taiga/projects/api.py:1047
 msgid ""
-"This user can't be removed from the following projects, because would leave "
+"This user can't be removed from the following circles, because would leave "
 "them without any active admin: {}."
 msgstr ""
-"This user can't be removed from the following projects, because would leave "
+"This user can't be removed from the following circles, because would leave "
 "them without any active admin: {}."
 
 #: taiga/projects/api.py:1057
 msgid ""
-"The project must have an owner and at least one of the users must be an "
+"The circle must have an owner and at least one of the users must be an "
 "active admin"
 msgstr ""
-"The project must have an owner and at least one of the users must be an "
+"The circle must have an owner and at least one of the users must be an "
 "active admin"
 
 #: taiga/projects/api.py:1091
@@ -1832,8 +1832,8 @@ msgid "Object id issue isn't exists"
 msgstr "Object id issue isn't exists"
 
 #: taiga/projects/attachments/api.py:72
-msgid "Project ID not matches between object and project"
-msgstr "Project ID not matches between object and project"
+msgid "Circle ID not matches between object and project"
+msgstr "Circle ID not matches between object and project"
 
 #: taiga/projects/attachments/models.py:41 taiga/projects/contact/models.py:29
 #: taiga/projects/custom_attributes/models.py:43
@@ -1848,8 +1848,8 @@ msgstr "Project ID not matches between object and project"
 #: taiga/projects/notifications/models.py:94 taiga/projects/tasks/models.py:44
 #: taiga/projects/userstories/models.py:68 taiga/projects/wiki/models.py:34
 #: taiga/projects/wiki/models.py:72 taiga/users/models.py:323
-msgid "project"
-msgstr "project"
+msgid "circle"
+msgstr "circle"
 
 #: taiga/projects/attachments/models.py:43
 msgid "content type"
@@ -1915,20 +1915,20 @@ msgid "Talky"
 msgstr "Talky"
 
 #: taiga/projects/choices.py:35
-msgid "This project is blocked due to payment failure"
-msgstr "This project is blocked due to payment failure"
+msgid "This circle is blocked due to payment failure"
+msgstr "This circle is blocked due to payment failure"
 
 #: taiga/projects/choices.py:36
-msgid "This project is blocked by admin staff"
-msgstr "This project is blocked by admin staff"
+msgid "This circle is blocked by admin staff"
+msgstr "This circle is blocked by admin staff"
 
 #: taiga/projects/choices.py:37
-msgid "This project is blocked because the owner left"
-msgstr "This project is blocked because the owner left"
+msgid "This circle is blocked because the owner left"
+msgstr "This circle is blocked because the owner left"
 
 #: taiga/projects/choices.py:38
-msgid "This project is blocked while it's deleted"
-msgstr "This project is blocked while it's deleted"
+msgid "This circle is blocked while it's deleted"
+msgstr "This circle is blocked while it's deleted"
 
 #: taiga/projects/contact/templates/emails/contact_notification-body-html.jinja:10
 #, python-format
@@ -1950,19 +1950,19 @@ msgstr ""
 msgid ""
 "\n"
 "        You are receiving this message because you are listed as "
-"administrator of the project titled %(project_name)s. If you don't want "
-"members of the Taiga community contacting your project, please <a href="
-"\"%(project_settings_url)s\">update your project settings</a> to prevent "
-"such contacts. Regular communications amongst members of the project will "
+"administrator of the circle titled %(project_name)s. If you don't want "
+"members of the Threefold community contacting your circle, please <a href="
+"\"%(project_settings_url)s\">update your circle settings</a> to prevent "
+"such contacts. Regular communications amongst members of the circle will "
 "not be affected.\n"
 "    "
 msgstr ""
 "\n"
 "        You are receiving this message because you are listed as "
-"administrator of the project titled %(project_name)s. If you don't want "
-"members of the Taiga community contacting your project, please <a href="
-"\"%(project_settings_url)s\">update your project settings</a> to prevent "
-"such contacts. Regular communications amongst members of the project will "
+"administrator of the circle titled %(project_name)s. If you don't want "
+"members of the Threefold community contacting your project, please <a href="
+"\"%(project_settings_url)s\">update your circle settings</a> to prevent "
+"such contacts. Regular communications amongst members of the circle will "
 "not be affected.\n"
 "    "
 
@@ -1980,26 +1980,26 @@ msgstr ""
 msgid ""
 "\n"
 "You are receiving this message because you are listed as administrator of "
-"the project titled %(project_name)s. If you don't want members of the Taiga "
-"community contacting your project, please update your project settings in "
+"the circle titled %(project_name)s. If you don't want members of the Threefold "
+"community contacting your project, please update your circle settings in "
 "%(project_settings_url)s to prevent such contacts. Regular communications "
-"amongst members of the project will not be affected.\n"
+"amongst members of the circle will not be affected.\n"
 msgstr ""
 "\n"
 "You are receiving this message because you are listed as administrator of "
-"the project titled %(project_name)s. If you don't want members of the Taiga "
-"community contacting your project, please update your project settings in "
+"the circle titled %(project_name)s. If you don't want members of the Threefold "
+"community contacting your project, please update your circle settings in "
 "%(project_settings_url)s to prevent such contacts. Regular communications "
-"amongst members of the project will not be affected.\n"
+"amongst members of the circle will not be affected.\n"
 
 #: taiga/projects/contact/templates/emails/contact_notification-subject.jinja:1
 #, python-format
 msgid ""
 "\n"
-"[Taiga] %(full_name)s has sent a message to the project %(project_name)s\n"
+"[Taiga] %(full_name)s has sent a message to the circle %(project_name)s\n"
 msgstr ""
 "\n"
-"[Taiga] %(full_name)s has sent a message to the project %(project_name)s\n"
+"[Taiga] %(full_name)s has sent a message to the circle %(project_name)s\n"
 
 #: taiga/projects/custom_attributes/choices.py:32
 msgid "Text"
@@ -2376,8 +2376,8 @@ msgstr "There's no milestone with that id"
 
 #: taiga/projects/milestones/validators.py:66
 #: taiga/projects/userstories/validators.py:168
-msgid "All the stories must be from the same project"
-msgstr "All the stories must be from the same project"
+msgid "All the stories must be from the same circle"
+msgstr "All the stories must be from the same circle"
 
 #: taiga/projects/mixins/blocked.py:31
 msgid "is blocked"
@@ -2397,8 +2397,8 @@ msgid "'{param}' parameter is mandatory"
 msgstr "'{param}' parameter is mandatory"
 
 #: taiga/projects/mixins/ordering.py:53
-msgid "'project' parameter is mandatory"
-msgstr "'project' parameter is mandatory"
+msgid "'circle' parameter is mandatory"
+msgstr "'circle' parameter is mandatory"
 
 #: taiga/projects/mixins/validators.py:19
 msgid "The user must be a project member."
@@ -2425,8 +2425,8 @@ msgid "user order"
 msgstr "user order"
 
 #: taiga/projects/models.py:108
-msgid "The user is already member of the project"
-msgstr "The user is already member of the project"
+msgid "The user is already member of the circle"
+msgstr "The user is already member of the circle"
 
 #: taiga/projects/models.py:115
 msgid "default epic status"
@@ -2616,11 +2616,11 @@ msgid "epic statuses"
 msgstr "epic statuses"
 
 #: taiga/projects/models.py:850
-msgid "us statuses"
-msgstr "us statuses"
+msgid "story statuses"
+msgstr "story statuses"
 
 #: taiga/projects/models.py:851
-msgid "us duedates"
+msgid "story duedates"
 msgstr ""
 
 #: taiga/projects/models.py:852 taiga/projects/userstories/models.py:45
@@ -2629,11 +2629,11 @@ msgid "points"
 msgstr "points"
 
 #: taiga/projects/models.py:853
-msgid "task statuses"
-msgstr "task statuses"
+msgid "item statuses"
+msgstr "item statuses"
 
 #: taiga/projects/models.py:854
-msgid "task duedates"
+msgid "item duedates"
 msgstr ""
 
 #: taiga/projects/models.py:855
@@ -2665,12 +2665,12 @@ msgid "epic custom attributes"
 msgstr "epic custom attributes"
 
 #: taiga/projects/models.py:862
-msgid "us custom attributes"
-msgstr "us custom attributes"
+msgid "story custom attributes"
+msgstr "story custom attributes"
 
 #: taiga/projects/models.py:863
-msgid "task custom attributes"
-msgstr "task custom attributes"
+msgid "item custom attributes"
+msgstr "item custom attributes"
 
 #: taiga/projects/models.py:864
 msgid "issue custom attributes"
@@ -2749,7 +2749,7 @@ msgid ""
 "p>\n"
 "    <p>Epic #%(ref)s %(subject)s</p>\n"
 "    <a class=\"button\" href=\"%(url)s\" title=\"See Epic #%(ref)s: "
-"%(subject)s in Taiga\">See epic</a>\n"
+"%(subject)s in Threefold Circles\">See epic</a>\n"
 "    "
 msgstr ""
 "\n"
@@ -2758,7 +2758,7 @@ msgstr ""
 "p>\n"
 "    <p>Epic #%(ref)s %(subject)s</p>\n"
 "    <a class=\"button\" href=\"%(url)s\" title=\"See Epic #%(ref)s: "
-"%(subject)s in Taiga\">See epic</a>\n"
+"%(subject)s in Threefold Circles\">See epic</a>\n"
 "    "
 
 #: taiga/projects/notifications/templates/emails/epics/epic-change-body-text.jinja:3
@@ -2793,7 +2793,7 @@ msgid ""
 "    <p>Epic #%(ref)s %(subject)s</p>\n"
 "    <a class=\"button\" href=\"%(url)s\" title=\"See Epic #%(ref)s "
 "%(subject)s\">See epic</a>\n"
-"    <p><small>The Taiga Team</small></p>\n"
+"    <p><small>The Threefold Team</small></p>\n"
 "    "
 msgstr ""
 "\n"
@@ -2803,7 +2803,7 @@ msgstr ""
 "    <p>Epic #%(ref)s %(subject)s</p>\n"
 "    <a class=\"button\" href=\"%(url)s\" title=\"See Epic #%(ref)s "
 "%(subject)s\">See epic</a>\n"
-"    <p><small>The Taiga Team</small></p>\n"
+"    <p><small>The Threefold Team</small></p>\n"
 "    "
 
 #: taiga/projects/notifications/templates/emails/epics/epic-create-body-text.jinja:1
