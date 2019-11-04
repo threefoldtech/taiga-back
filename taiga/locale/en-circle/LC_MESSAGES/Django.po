@@ -3643,35 +3643,35 @@ msgstr "You have reached the current limit of pending memberships"
 
 #: taiga/projects/services/projects.py:101
 #: taiga/projects/services/projects.py:141 taiga/users/services.py:600
-msgid "You can't have more private projects"
-msgstr "You can't have more private projects"
+msgid "You can't have more private circles"
+msgstr "You can't have more private circles"
 
 #: taiga/projects/services/projects.py:105
 #: taiga/projects/services/projects.py:145 taiga/users/services.py:603
 msgid ""
-"This project reaches your current limit of memberships for private projects"
+"This circle reaches your current limit of memberships for private circles"
 msgstr ""
-"This project reaches your current limit of memberships for private projects"
+"This circle reaches your current limit of memberships for private circles"
 
 #: taiga/projects/services/projects.py:109
 #: taiga/projects/services/projects.py:149 taiga/users/services.py:607
-msgid "You can't have more public projects"
-msgstr "You can't have more public projects"
+msgid "You can't have more public circles"
+msgstr "You can't have more public circles"
 
 #: taiga/projects/services/projects.py:113
 #: taiga/projects/services/projects.py:153 taiga/users/services.py:610
 msgid ""
-"This project reaches your current limit of memberships for public projects"
+"This circle reaches your current limit of memberships for public circles"
 msgstr ""
-"This project reaches your current limit of memberships for public projects"
+"This circle reaches your current limit of memberships for public circles"
 
 #: taiga/projects/services/stats.py:197
 msgid "Future sprint"
 msgstr "Future sprint"
 
 #: taiga/projects/services/stats.py:217
-msgid "Project End"
-msgstr "Project End"
+msgid "Circle End"
+msgstr "Circle End"
 
 #: taiga/projects/services/transfer.py:62
 #: taiga/projects/services/transfer.py:69
@@ -3758,20 +3758,20 @@ msgid "The tag doesn't exist."
 msgstr "The tag doesn't exist."
 
 #: taiga/projects/tasks/api.py:112 taiga/projects/tasks/api.py:121
-msgid "You don't have permissions to set this sprint to this task."
-msgstr "You don't have permissions to set this sprint to this task."
+msgid "You don't have permissions to set this sprint to this item."
+msgstr "You don't have permissions to set this sprint to this item."
 
 #: taiga/projects/tasks/api.py:115
-msgid "You don't have permissions to set this user story to this task."
-msgstr "You don't have permissions to set this user story to this task."
+msgid "You don't have permissions to set this user story to this item."
+msgstr "You don't have permissions to set this user story to this item."
 
 #: taiga/projects/tasks/api.py:118
-msgid "You don't have permissions to set this status to this task."
-msgstr "You don't have permissions to set this status to this task."
+msgid "You don't have permissions to set this status to this item."
+msgstr "You don't have permissions to set this status to this item."
 
 #: taiga/projects/tasks/models.py:59
-msgid "us order"
-msgstr "us order"
+msgid "story order"
+msgstr "story order"
 
 #: taiga/projects/tasks/models.py:61
 msgid "taskboard order"
@@ -3786,16 +3786,16 @@ msgid "Invalid milestone id."
 msgstr "Invalid milestone id."
 
 #: taiga/projects/tasks/validators.py:72
-msgid "Invalid task status id."
-msgstr "Invalid task status id."
+msgid "Invalid item status id."
+msgstr "Invalid item status id."
 
 #: taiga/projects/tasks/validators.py:85
-msgid "Invalid user story id."
-msgstr "Invalid user story id."
+msgid "Invalid story id."
+msgstr "Invalid story id."
 
 #: taiga/projects/tasks/validators.py:109
-msgid "Invalid task status id. The status must belong to the same circle."
-msgstr "Invalid task status id. The status must belong to the same circle."
+msgid "Invalid item status id. The status must belong to the same circle."
+msgstr "Invalid item status id. The status must belong to the same circle."
 
 #: taiga/projects/tasks/validators.py:123
 msgid "Invalid user story id. The user story must belong to the same circle."
@@ -3807,15 +3807,15 @@ msgstr "Invalid milestone id. The milestone must belong to the same circle."
 
 #: taiga/projects/tasks/validators.py:152
 msgid ""
-"Invalid task ids. All tasks must belong to the same circle and, if it "
-"exists, to the same status, user story and/or milestone."
+"Invalid item ids. All items must belong to the same circle and, if it "
+"exists, to the same status, story and/or milestone."
 msgstr ""
-"Invalid task ids. All tasks must belong to the same circle and, if it "
-"exists, to the same status, user story and/or milestone."
+"Invalid item ids. All items must belong to the same circle and, if it "
+"exists, to the same status, story and/or milestone."
 
 #: taiga/projects/tasks/validators.py:186
-msgid "All the tasks must be from the same circle"
-msgstr "All the tasks must be from the same circle"
+msgid "All the items must be from the same circle"
+msgstr "All the items must be from the same circle"
 
 #: taiga/projects/templates/emails/membership_invitation-body-html.jinja:6
 #: taiga/projects/templates/emails/membership_invitation-body-text.jinja:4
@@ -3826,7 +3826,7 @@ msgstr "someone"
 #, python-format
 msgid ""
 "\n"
-"    <h2>You have been invited to Taiga!</h2>\n"
+"    <h2>You have been invited to Threefold Circles!</h2>\n"
 "<p>Hi! %(full_name)s has sent you an invitation to join circle <em>"
 "%(project)s</em> in Taiga.</br> Taiga is a Free, open Source Agile Project "
 "Management Tool.</p>\n"
@@ -3855,29 +3855,29 @@ msgstr ""
 "        "
 
 #: taiga/projects/templates/emails/membership_invitation-body-html.jinja:24
-msgid "Accept your invitation to Taiga"
-msgstr "Accept your invitation to Taiga"
+msgid "Accept your invitation to Threefold Circles"
+msgstr "Accept your invitation to Threefold Circles"
 
 #: taiga/projects/templates/emails/membership_invitation-body-html.jinja:24
 msgid "Accept your invitation"
 msgstr "Accept your invitation"
 
 #: taiga/projects/templates/emails/membership_invitation-body-html.jinja:25
-msgid "The Taiga Team"
-msgstr "The Taiga Team"
+msgid "The Threefold Team"
+msgstr "The Threefold Team"
 
 #: taiga/projects/templates/emails/membership_invitation-body-text.jinja:6
 #, python-format
 msgid ""
 "\n"
-"You, or someone you know, has invited you to Taiga\n"
+"You, or someone you know, has invited you to Threefold Circles\n"
 "\n"
 "Hi! %(full_name)s has sent you an invitation to join a circle called "
 "%(project)s  which is being managed on Threefold Circle Cockpit, a Free, open Source Agile "
 "Circle Management Tool.\n"
 msgstr ""
 "\n"
-"You, or someone you know, has invited you to Taiga\n"
+"You, or someone you know, has invited you to Threefold Circles\n"
 "\n"
 "Hi! %(full_name)s has sent you an invitation to join a circle called "
 "%(project)s  which is being managed on Threefold Circle Cockpit, a Free, open Source Agile "
@@ -3901,27 +3901,27 @@ msgstr ""
 "    "
 
 #: taiga/projects/templates/emails/membership_invitation-body-text.jinja:18
-msgid "Accept your invitation to Taiga following this link:"
-msgstr "Accept your invitation to Taiga following this link:"
+msgid "Accept your invitation to Threefold Circles following this link:"
+msgstr "Accept your invitation to Threefold Circles following this link:"
 
 #: taiga/projects/templates/emails/membership_invitation-body-text.jinja:20
 msgid ""
 "\n"
 "---\n"
-"The Taiga Team\n"
+"The Threefold Team\n"
 msgstr ""
 "\n"
 "---\n"
-"The Taiga Team\n"
+"The Threefold Team\n"
 
 #: taiga/projects/templates/emails/membership_invitation-subject.jinja:1
 #, python-format
 msgid ""
 "\n"
-"[Taiga] Invitation to join to the project '%(project)s'\n"
+"[Taiga] Invitation to join to the circle '%(project)s'\n"
 msgstr ""
 "\n"
-"[Taiga] Invitation to join to the project '%(project)s'\n"
+"[Taiga] Invitation to join to the circle '%(project)s'\n"
 
 #: taiga/projects/templates/emails/membership_notification-body-html.jinja:4
 #, python-format
@@ -3932,7 +3932,7 @@ msgid ""
 "%(project)s</p>\n"
 "    <a class=\"button\" href=\"%(url)s\" title=\"Go to%(project)s\">Go to "
 "project</a>\n"
-"    <p><small>The Taiga Team</small></p>\n"
+"    <p><small>The Threefold Team</small></p>\n"
 "    "
 msgstr ""
 "\n"
@@ -3941,7 +3941,7 @@ msgstr ""
 "%(project)s</p>\n"
 "    <a class=\"button\" href=\"%(url)s\" title=\"Go to%(project)s\">Go to "
 "project</a>\n"
-"    <p><small>The Taiga Team</small></p>\n"
+"    <p><small>The Threefold Team</small></p>\n"
 "    "
 
 #: taiga/projects/templates/emails/membership_notification-body-text.jinja:1
@@ -3951,7 +3951,7 @@ msgid ""
 "You have been added to a circle\n"
 "Hello %(full_name)s,you have been added to the circle %(project)s\n"
 "\n"
-"See project at %(url)s\n"
+"See circle at %(url)s\n"
 msgstr ""
 "\n"
 "You have been added to a circle\n"
@@ -3963,10 +3963,10 @@ msgstr ""
 #, python-format
 msgid ""
 "\n"
-"[Taiga] Added to the circle '%(project)s'\n"
+"[Threefold] Added to the circle '%(project)s'\n"
 msgstr ""
 "\n"
-"[Taiga] Added to the circle '%(project)s'\n"
+"[Threefold] Added to the circle '%(project)s'\n"
 
 #: taiga/projects/templates/emails/transfer_accept-body-html.jinja:4
 #, python-format
