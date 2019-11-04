@@ -3794,28 +3794,28 @@ msgid "Invalid user story id."
 msgstr "Invalid user story id."
 
 #: taiga/projects/tasks/validators.py:109
-msgid "Invalid task status id. The status must belong to the same project."
-msgstr "Invalid task status id. The status must belong to the same project."
+msgid "Invalid task status id. The status must belong to the same circle."
+msgstr "Invalid task status id. The status must belong to the same circle."
 
 #: taiga/projects/tasks/validators.py:123
-msgid "Invalid user story id. The user story must belong to the same project."
-msgstr "Invalid user story id. The user story must belong to the same project."
+msgid "Invalid user story id. The user story must belong to the same circle."
+msgstr "Invalid user story id. The user story must belong to the same circle."
 
 #: taiga/projects/tasks/validators.py:135
-msgid "Invalid milestone id. The milestone must belong to the same project."
-msgstr "Invalid milestone id. The milestone must belong to the same project."
+msgid "Invalid milestone id. The milestone must belong to the same circle."
+msgstr "Invalid milestone id. The milestone must belong to the same circle."
 
 #: taiga/projects/tasks/validators.py:152
 msgid ""
-"Invalid task ids. All tasks must belong to the same project and, if it "
+"Invalid task ids. All tasks must belong to the same circle and, if it "
 "exists, to the same status, user story and/or milestone."
 msgstr ""
-"Invalid task ids. All tasks must belong to the same project and, if it "
+"Invalid task ids. All tasks must belong to the same circle and, if it "
 "exists, to the same status, user story and/or milestone."
 
 #: taiga/projects/tasks/validators.py:186
-msgid "All the tasks must be from the same project"
-msgstr "All the tasks must be from the same project"
+msgid "All the tasks must be from the same circle"
+msgstr "All the tasks must be from the same circle"
 
 #: taiga/projects/templates/emails/membership_invitation-body-html.jinja:6
 #: taiga/projects/templates/emails/membership_invitation-body-text.jinja:4
@@ -3827,15 +3827,15 @@ msgstr "someone"
 msgid ""
 "\n"
 "    <h2>You have been invited to Taiga!</h2>\n"
-"<p>Hi! %(full_name)s has sent you an invitation to join project <em>"
+"<p>Hi! %(full_name)s has sent you an invitation to join circle <em>"
 "%(project)s</em> in Taiga.</br> Taiga is a Free, open Source Agile Project "
 "Management Tool.</p>\n"
 "    "
 msgstr ""
 "\n"
 "    <h2>You have been invited to Taiga!</h2>\n"
-"<p>Hi! %(full_name)s has sent you an invitation to join project <em>"
-"%(project)s</em> in Taiga.</br> Taiga is a Free, open Source Agile Project "
+"<p>Hi! %(full_name)s has sent you an invitation to join circle <em>"
+"%(project)s</em> in Taiga.</br> Taiga is a Free, open Source Agile circle "
 "Management Tool.</p>\n"
 "    "
 
@@ -3872,16 +3872,16 @@ msgid ""
 "\n"
 "You, or someone you know, has invited you to Taiga\n"
 "\n"
-"Hi! %(full_name)s has sent you an invitation to join a project called "
-"%(project)s  which is being managed on Taiga, a Free, open Source Agile "
-"Project Management Tool.\n"
+"Hi! %(full_name)s has sent you an invitation to join a circle called "
+"%(project)s  which is being managed on Threefold Circle Cockpit, a Free, open Source Agile "
+"Circle Management Tool.\n"
 msgstr ""
 "\n"
 "You, or someone you know, has invited you to Taiga\n"
 "\n"
-"Hi! %(full_name)s has sent you an invitation to join a project called "
-"%(project)s  which is being managed on Taiga, a Free, open Source Agile "
-"Project Management Tool.\n"
+"Hi! %(full_name)s has sent you an invitation to join a circle called "
+"%(project)s  which is being managed on Threefold Circle Cockpit, a Free, open Source Agile "
+"Circles Management Tool.\n"
 
 #: taiga/projects/templates/emails/membership_invitation-body-text.jinja:12
 #, python-format
@@ -3928,7 +3928,7 @@ msgstr ""
 msgid ""
 "\n"
 "    <h1>You have been added to a project</h1>\n"
-"    <p>Hello %(full_name)s,<br />you have been added to the project "
+"    <p>Hello %(full_name)s,<br />you have been added to the circle "
 "%(project)s</p>\n"
 "    <a class=\"button\" href=\"%(url)s\" title=\"Go to%(project)s\">Go to "
 "project</a>\n"
@@ -3937,7 +3937,7 @@ msgid ""
 msgstr ""
 "\n"
 "    <h1>You have been added to a project</h1>\n"
-"    <p>Hello %(full_name)s,<br />you have been added to the project "
+"    <p>Hello %(full_name)s,<br />you have been added to the circle "
 "%(project)s</p>\n"
 "    <a class=\"button\" href=\"%(url)s\" title=\"Go to%(project)s\">Go to "
 "project</a>\n"
@@ -3948,25 +3948,25 @@ msgstr ""
 #, python-format
 msgid ""
 "\n"
-"You have been added to a project\n"
-"Hello %(full_name)s,you have been added to the project %(project)s\n"
+"You have been added to a circle\n"
+"Hello %(full_name)s,you have been added to the circle %(project)s\n"
 "\n"
 "See project at %(url)s\n"
 msgstr ""
 "\n"
-"You have been added to a project\n"
-"Hello %(full_name)s,you have been added to the project %(project)s\n"
+"You have been added to a circle\n"
+"Hello %(full_name)s,you have been added to the circle %(project)s\n"
 "\n"
-"See project at %(url)s\n"
+"See circle at %(url)s\n"
 
 #: taiga/projects/templates/emails/membership_notification-subject.jinja:1
 #, python-format
 msgid ""
 "\n"
-"[Taiga] Added to the project '%(project)s'\n"
+"[Taiga] Added to the circle '%(project)s'\n"
 msgstr ""
 "\n"
-"[Taiga] Added to the project '%(project)s'\n"
+"[Taiga] Added to the circle '%(project)s'\n"
 
 #: taiga/projects/templates/emails/transfer_accept-body-html.jinja:4
 #, python-format
@@ -3974,13 +3974,13 @@ msgid ""
 "\n"
 "        <p>Hi %(old_owner_name)s,</p>\n"
 "        <p>%(new_owner_name)s has accepted your offer and will become the "
-"new project owner for \"%(project_name)s\".</p>\n"
+"new circle owner for \"%(project_name)s\".</p>\n"
 "    "
 msgstr ""
 "\n"
 "        <p>Hi %(old_owner_name)s,</p>\n"
 "        <p>%(new_owner_name)s has accepted your offer and will become the "
-"new project owner for \"%(project_name)s\".</p>\n"
+"new circle owner for \"%(project_name)s\".</p>\n"
 "    "
 
 #: taiga/projects/templates/emails/transfer_accept-body-html.jinja:10
@@ -3991,7 +3991,7 @@ msgstr "<p>%(new_owner_name)s says:</p>"
 #: taiga/projects/templates/emails/transfer_accept-body-html.jinja:14
 msgid ""
 "\n"
-"        <p>From now on, your new status for this project will be \"admin\".</"
+"        <p>From now on, your new status for this circle will be \"admin\".</"
 "p>\n"
 "    "
 msgstr ""
@@ -4005,12 +4005,12 @@ msgstr ""
 msgid ""
 "\n"
 "Hi %(old_owner_name)s,\n"
-"%(new_owner_name)s has accepted your offer and will become the new project "
+"%(new_owner_name)s has accepted your offer and will become the new circle "
 "owner for \"%(project_name)s\".\n"
 msgstr ""
 "\n"
 "Hi %(old_owner_name)s,\n"
-"%(new_owner_name)s has accepted your offer and will become the new project "
+"%(new_owner_name)s has accepted your offer and will become the new circle "
 "owner for \"%(project_name)s\".\n"
 
 #: taiga/projects/templates/emails/transfer_accept-body-text.jinja:7
@@ -4021,10 +4021,10 @@ msgstr "%(new_owner_name)s says:"
 #: taiga/projects/templates/emails/transfer_accept-body-text.jinja:11
 msgid ""
 "\n"
-"From now on, your new status for this project will be \"admin\".\n"
+"From now on, your new status for this circle will be \"admin\".\n"
 msgstr ""
 "\n"
-"From now on, your new status for this project will be \"admin\".\n"
+"From now on, your new status for this circle will be \"admin\".\n"
 
 #: taiga/projects/templates/emails/transfer_accept-body-text.jinja:16
 #: taiga/projects/templates/emails/transfer_reject-body-text.jinja:19
@@ -4075,12 +4075,12 @@ msgstr ""
 #: taiga/projects/templates/emails/transfer_reject-body-html.jinja:16
 msgid ""
 "\n"
-"    <p>If you want, you can still try to transfer the project ownership to a "
+"    <p>If you want, you can still try to transfer the circle ownership to a "
 "different person.</p>\n"
 "    "
 msgstr ""
 "\n"
-"    <p>If you want, you can still try to transfer the project ownership to a "
+"    <p>If you want, you can still try to transfer the circle ownership to a "
 "different person.</p>\n"
 "    "
 
@@ -4095,12 +4095,12 @@ msgid ""
 "\n"
 "Hi %(owner_name)s,\n"
 "%(rejecter_name)s has declined your offer and will not become the new "
-"project owner for \"%(project_name)s\".\n"
+"circle owner for \"%(project_name)s\".\n"
 msgstr ""
 "\n"
 "Hi %(owner_name)s,\n"
 "%(rejecter_name)s has declined your offer and will not become the new "
-"project owner for \"%(project_name)s\".\n"
+"circle owner for \"%(project_name)s\".\n"
 
 #: taiga/projects/templates/emails/transfer_reject-body-text.jinja:7
 #, python-format
@@ -4110,11 +4110,11 @@ msgstr "%(rejecter_name)s says:"
 #: taiga/projects/templates/emails/transfer_reject-body-text.jinja:11
 msgid ""
 "\n"
-"If you want, you can still try to transfer the project ownership to a "
+"If you want, you can still try to transfer the circle ownership to a "
 "different person.\n"
 msgstr ""
 "\n"
-"If you want, you can still try to transfer the project ownership to a "
+"If you want, you can still try to transfer the circle ownership to a "
 "different person.\n"
 
 #: taiga/projects/templates/emails/transfer_reject-body-text.jinja:15
@@ -4125,23 +4125,23 @@ msgstr "Request transfer to a different person:"
 #, python-format
 msgid ""
 "\n"
-"[%(project)s] Project ownership transfer declined\n"
+"[%(project)s] Circle ownership transfer declined\n"
 msgstr ""
 "\n"
-"[%(project)s] Project ownership transfer declined\n"
+"[%(project)s] Circle ownership transfer declined\n"
 
 #: taiga/projects/templates/emails/transfer_request-body-html.jinja:4
 #, python-format
 msgid ""
 "\n"
 "        <p>Hi %(owner_name)s,</p>\n"
-"        <p>%(requester_name)s has requested to become the project owner for "
+"        <p>%(requester_name)s has requested to become the circle owner for "
 "\"%(project_name)s\".</p>\n"
 "    "
 msgstr ""
 "\n"
 "        <p>Hi %(owner_name)s,</p>\n"
-"        <p>%(requester_name)s has requested to become the project owner for "
+"        <p>%(requester_name)s has requested to become the circle owner for "
 "\"%(project_name)s\".</p>\n"
 "    "
 
@@ -4167,50 +4167,50 @@ msgstr "Continue"
 msgid ""
 "\n"
 "Hi %(owner_name)s,\n"
-"%(requester_name)s has requested to become the project owner for "
+"%(requester_name)s has requested to become the circle owner for "
 "\"%(project_name)s\".\n"
 msgstr ""
 "\n"
 "Hi %(owner_name)s,\n"
-"%(requester_name)s has requested to become the project owner for "
+"%(requester_name)s has requested to become the circle owner for "
 "\"%(project_name)s\".\n"
 
 #: taiga/projects/templates/emails/transfer_request-body-text.jinja:6
 msgid ""
 "\n"
-"Please, go to your project settings if you would like to start the project "
+"Please, go to your circle settings if you would like to start the circle "
 "transfer from the administration panel.\n"
 msgstr ""
 "\n"
-"Please, go to your project settings if you would like to start the project "
+"Please, go to your circle settings if you would like to start the circle "
 "transfer from the administration panel.\n"
 
 #: taiga/projects/templates/emails/transfer_request-body-text.jinja:10
-msgid "Go to your project settings:"
-msgstr "Go to your project settings:"
+msgid "Go to your circle settings:"
+msgstr "Go to your circle settings:"
 
 #: taiga/projects/templates/emails/transfer_request-subject.jinja:1
 #, python-format
 msgid ""
 "\n"
-"[%(project)s] Project ownership transfer request\n"
+"[%(project)s] Circle ownership transfer request\n"
 msgstr ""
 "\n"
-"[%(project)s] Project ownership transfer request\n"
+"[%(project)s] Circle ownership transfer request\n"
 
 #: taiga/projects/templates/emails/transfer_start-body-html.jinja:4
 #, python-format
 msgid ""
 "\n"
 "        <p>Hi %(receiver_name)s,</p>\n"
-"        <p>%(owner_name)s, the current project owner at \"%(project_name)s\" "
-"would like you to become the new project owner.</p>\n"
+"        <p>%(owner_name)s, the current circle owner at \"%(project_name)s\" "
+"would like you to become the new circle owner.</p>\n"
 "    "
 msgstr ""
 "\n"
 "        <p>Hi %(receiver_name)s,</p>\n"
-"        <p>%(owner_name)s, the current project owner at \"%(project_name)s\" "
-"would like you to become the new project owner.</p>\n"
+"        <p>%(owner_name)s, the current circle owner at \"%(project_name)s\" "
+"would like you to become the new circle owner.</p>\n"
 "    "
 
 #: taiga/projects/templates/emails/transfer_start-body-html.jinja:10
@@ -4241,12 +4241,12 @@ msgstr ""
 msgid ""
 "\n"
 "Hi %(receiver_name)s,\n"
-"%(owner_name)s, the current project owner at \"%(project_name)s\" would like "
-"you to become the new project owner.\n"
+"%(owner_name)s, the current circle owner at \"%(project_name)s\" would like "
+"you to become the new circle owner.\n"
 msgstr ""
 "\n"
 "Hi %(receiver_name)s,\n"
-"%(owner_name)s, the current project owner at \"%(project_name)s\" would like "
+"%(owner_name)s, the current circle owner at \"%(project_name)s\" would like "
 "you to become the new project owner.\n"
 
 #: taiga/projects/templates/emails/transfer_start-body-text.jinja:6
@@ -4265,17 +4265,17 @@ msgstr ""
 "p>\n"
 
 #: taiga/projects/templates/emails/transfer_start-body-text.jinja:15
-msgid "Accept or reject the project ownership transfer:"
-msgstr "Accept or reject the project ownership transfer:"
+msgid "Accept or reject the circle ownership transfer:"
+msgstr "Accept or reject the circle ownership transfer:"
 
 #: taiga/projects/templates/emails/transfer_start-subject.jinja:1
 #, python-format
 msgid ""
 "\n"
-"[%(project)s] Project ownership transfer offer\n"
+"[%(project)s] Circle ownership transfer offer\n"
 msgstr ""
 "\n"
-"[%(project)s] Project ownership transfer offer\n"
+"[%(project)s] Circle ownership transfer offer\n"
 
 #. Translators: Name of scrum project template.
 #: taiga/projects/translations.py:30
@@ -4534,8 +4534,8 @@ msgstr "Invalid points id '{points_id}'"
 
 #: taiga/projects/userstories/api.py:271
 #, python-brace-format
-msgid "Generating the user story #{ref} - {subject}"
-msgstr "Generating the user story #{ref} - {subject}"
+msgid "Generating the story #{ref} - {subject}"
+msgstr "Generating the story #{ref} - {subject}"
 
 #: taiga/projects/userstories/models.py:42
 msgid "role"
@@ -4566,19 +4566,19 @@ msgid "generated from issue"
 msgstr "generated from issue"
 
 #: taiga/projects/userstories/models.py:115
-msgid "generated from task"
-msgstr "generated from task"
+msgid "generated from checklist item"
+msgstr "generated from checklist item"
 
 #: taiga/projects/userstories/validators.py:43
-msgid "There's no user story with that id"
-msgstr "There's no user story with that id"
+msgid "There's no story with that id"
+msgstr "There's no story with that id"
 
 #: taiga/projects/userstories/validators.py:83
 #: taiga/projects/userstories/validators.py:109
 msgid ""
-"Invalid user story status id. The status must belong to the same project."
+"Invalid story status id. The status must belong to the same project."
 msgstr ""
-"Invalid user story status id. The status must belong to the same project."
+"Invalid story status id. The status must belong to the same project."
 
 #: taiga/projects/userstories/validators.py:121
 msgid "Invalid milestone id. The milistone must belong to the same project."
@@ -4586,23 +4586,23 @@ msgstr "Invalid milestone id. The milistone must belong to the same project."
 
 #: taiga/projects/userstories/validators.py:134
 msgid ""
-"Invalid user story ids. All stories must belong to the same project and, if "
+"Invalid story ids. All stories must belong to the same project and, if "
 "it exists, to the same status and milestone."
 msgstr ""
-"Invalid user story ids. All stories must belong to the same project and, if "
+"Invalid story ids. All stories must belong to the same project and, if "
 "it exists, to the same status and milestone."
 
 #: taiga/projects/validators.py:63
-msgid "There's no project with that id"
-msgstr "There's no project with that id"
+msgid "There's no circle with that id"
+msgstr "There's no circle with that id"
 
 #: taiga/projects/validators.py:164
-msgid "The user yet exists in the project"
-msgstr "The user yet exists in the project"
+msgid "The user yet exists in the circle"
+msgstr "The user yet exists in the circle"
 
 #: taiga/projects/validators.py:174
-msgid "Invalid role for the project"
-msgstr "Invalid role for the project"
+msgid "Invalid role for the circle"
+msgstr "Invalid role for the circle"
 
 #: taiga/projects/validators.py:189 taiga/projects/validators.py:244
 msgid "The user must be a valid contact"
@@ -4625,16 +4625,16 @@ msgid "Default options"
 msgstr "Default options"
 
 #: taiga/projects/validators.py:284
-msgid "User story's statuses"
-msgstr "User story's statuses"
+msgid "Story's statuses"
+msgstr "Story's statuses"
 
 #: taiga/projects/validators.py:285
 msgid "Points"
 msgstr "Points"
 
 #: taiga/projects/validators.py:286
-msgid "Task's statuses"
-msgstr "Task's statuses"
+msgid "item's statuses"
+msgstr "Item's statuses"
 
 #: taiga/projects/validators.py:287
 msgid "Issue's statuses"
@@ -4686,8 +4686,8 @@ msgid "Check the history API for the exact diff"
 msgstr "Check the history API for the exact diff"
 
 #: taiga/users/admin.py:39
-msgid "Project Member"
-msgstr "Project Member"
+msgid "Circle Member"
+msgstr "Circle Member"
 
 #: taiga/users/admin.py:40
 msgid "Project Members"
