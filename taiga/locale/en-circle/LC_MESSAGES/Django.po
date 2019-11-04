@@ -4576,20 +4576,20 @@ msgstr "There's no story with that id"
 #: taiga/projects/userstories/validators.py:83
 #: taiga/projects/userstories/validators.py:109
 msgid ""
-"Invalid story status id. The status must belong to the same project."
+"Invalid story status id. The status must belong to the same circle."
 msgstr ""
-"Invalid story status id. The status must belong to the same project."
+"Invalid story status id. The status must belong to the same circle."
 
 #: taiga/projects/userstories/validators.py:121
-msgid "Invalid milestone id. The milistone must belong to the same project."
-msgstr "Invalid milestone id. The milistone must belong to the same project."
+msgid "Invalid milestone id. The milistone must belong to the same circle."
+msgstr "Invalid milestone id. The milistone must belong to the same circle."
 
 #: taiga/projects/userstories/validators.py:134
 msgid ""
-"Invalid story ids. All stories must belong to the same project and, if "
+"Invalid story ids. All stories must belong to the same circle and, if "
 "it exists, to the same status and milestone."
 msgstr ""
-"Invalid story ids. All stories must belong to the same project and, if "
+"Invalid story ids. All stories must belong to the same circle and, if "
 "it exists, to the same status and milestone."
 
 #: taiga/projects/validators.py:63
@@ -4613,12 +4613,12 @@ msgid "The project owner must be admin."
 msgstr "The project owner must be admin."
 
 #: taiga/projects/validators.py:214
-msgid "At least one user must be an active admin for this project."
-msgstr "At least one user must be an active admin for this project."
+msgid "At least one user must be an active admin for this circle."
+msgstr "At least one user must be an active admin for this circle."
 
 #: taiga/projects/validators.py:259
-msgid "Invalid role ids. All roles must belong to the same project."
-msgstr "Invalid role ids. All roles must belong to the same project."
+msgid "Invalid role ids. All roles must belong to the same circle."
+msgstr "Invalid role ids. All roles must belong to the same circle."
 
 #: taiga/projects/validators.py:283
 msgid "Default options"
@@ -4690,20 +4690,20 @@ msgid "Circle Member"
 msgstr "Circle Member"
 
 #: taiga/users/admin.py:40
-msgid "Project Members"
-msgstr "Project Members"
+msgid "Circle Members"
+msgstr "Circle Members"
 
 #: taiga/users/admin.py:50
 msgid "id"
 msgstr "id"
 
 #: taiga/users/admin.py:81
-msgid "Project Ownership"
-msgstr "Project Ownership"
+msgid "Circle Ownership"
+msgstr "Circle Ownership"
 
 #: taiga/users/admin.py:82
-msgid "Project Ownerships"
-msgstr "Project Ownerships"
+msgid "Circle Ownerships"
+msgstr "Circle Ownerships"
 
 #: taiga/users/admin.py:119
 msgid "Personal info"
@@ -4846,20 +4846,20 @@ msgid "new email address"
 msgstr "new email address"
 
 #: taiga/users/models.py:178
-msgid "max number of owned private projects"
-msgstr "max number of owned private projects"
+msgid "max number of owned private circles"
+msgstr "max number of owned private circles"
 
 #: taiga/users/models.py:181
-msgid "max number of owned public projects"
-msgstr "max number of owned public projects"
+msgid "max number of owned public circles"
+msgstr "max number of owned public circles"
 
 #: taiga/users/models.py:184
-msgid "max number of memberships for each owned private project"
-msgstr "max number of memberships for each owned private project"
+msgid "max number of memberships for each owned private circle"
+msgstr "max number of memberships for each owned private circle"
 
 #: taiga/users/models.py:188
-msgid "max number of memberships for each owned public project"
-msgstr "max number of memberships for each owned public project"
+msgid "max number of memberships for each owned public circle"
+msgstr "max number of memberships for each owned public circle"
 
 #: taiga/users/models.py:316
 msgid "permissions"
@@ -4911,7 +4911,7 @@ msgstr ""
 "You can ignore this message if you did not request.\n"
 "\n"
 "---\n"
-"The Taiga Team\n"
+"The Threefold Team\n"
 
 #: taiga/users/templates/emails/change_email-subject.jinja:1
 msgid "[Taiga] Change email"
@@ -4962,8 +4962,8 @@ msgstr ""
 "The Taiga Team\n"
 
 #: taiga/users/templates/emails/password_recovery-subject.jinja:1
-msgid "[Taiga] Password recovery"
-msgstr "[Taiga] Password recovery"
+msgid "[Threefold] Password recovery"
+msgstr "[Threefold] Password recovery"
 
 #: taiga/users/templates/emails/registered_user-body-html.jinja:6
 msgid ""
